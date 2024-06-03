@@ -1,0 +1,8 @@
+GET http://localhost:3000/joyas
+
+###
+GET http://localhost:3000/joyas?limits=4&order_by=precio_DESC&page=0
+
+###
+GET http://localhost:3000/joyas/filtros?precio_max=25000&precio_min=30000&categoria=aros&metal=plata
+
